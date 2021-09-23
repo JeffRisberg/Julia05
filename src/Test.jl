@@ -1,6 +1,6 @@
 #=
 Test:
-- Julia version: 1.5.3
+- Julia version: 1.6.2
 - Author: jeff
 - Date: 2021-02-28
 =#
@@ -14,7 +14,6 @@ b = [7; 3; 8]
 c = Array{Float64}(c)
 A = Array{Float64}(A)
 b = Array{Float64}(b)
-
 
 using JuMP, GLPK, LinearAlgebra
 m = Model(GLPK.Optimizer)
