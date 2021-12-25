@@ -1,6 +1,5 @@
 #=
 SimplexMethod:
-- Julia version: 1.5.3
 - Author: jeff
 - Date: 2021-02-28
 =#
